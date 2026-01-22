@@ -1,0 +1,96 @@
+body {
+    font-family:'Times New Roman', Times, serif;
+    margin: 0;
+    padding: 0;
+    background: #f4f4f4;
+    color: #333;
+}
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+    background: #8cedfa;
+    color: rgb(9, 6, 6);
+}
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+.logo:hover{
+    background-color: aquamarine;
+    transition: 0.5s;
+    font-size: large;
+}
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 15px;
+}
+.nav-links li {
+    display: inline;
+}
+.nav-links a {
+    color: rgb(10, 6, 6);
+    text-decoration: none;
+    cursor: pointer;
+}
+.nav-links a:hover{
+    color: red;
+    transition: 0.3s;
+    font-size: large;
+}
+.hero {
+    text-align: center;
+    padding: 50px;
+    background: #80a7ee;
+    color: white;
+}
+.cta-btn {
+    padding: 10px 20px;
+    background: #8efbcc;
+    border: none;
+    cursor: pointer;
+}
+.gallery {
+    padding: 20px;
+}
+.grid {
+    display: flex;
+    gap: 25px;
+}
+.resource {
+    padding: 15px;
+    border-radius: 5px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+.resource button{
+    background-color:#8efbcc;
+}
+.resource:hover{
+    transition: 0.5s;
+    font-size: large;
+}
+.upload-section {
+    padding: 20px;
+} 
+.upload-section form {
+    display: flex;
+    flex-direction:row;
+    gap: 10px;
+}
+#upload-form button{
+    background-color:#8efbcc;
+}
+footer {
+    text-align: center;
+    padding: 10px;
+    background: #80a7ee;
+    color: black;
+    margin-top: 20px;
+}
+.dark-mode {
+    background: #222;
+    color: white;
+}
